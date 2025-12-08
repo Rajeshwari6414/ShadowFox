@@ -42,8 +42,7 @@ My goal is to become a skilled developer capable of solving real-world problems 
 |--------|------------|
 | 🍕 Food Delivery Website Clone | Swiggy/Zomato-like UI with menu & category layout |
 | 🛒 Mini E-Commerce Website | Cart system, sorting, search & product filtering |
-| 🤖 AI Chatbot | NLP-based conversation bot trained using datasets |
-| 🌐 Personal Portfolio | The website you’re seeing now! |
+| 🌐 Personal Portfolio | The website for sample |
 
 ---
 
