@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSK Fan Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- FIXED HEADER -->
+<div class="fixed-header">
+  <header class="hero">
+    <h1>Chennai Super Kings</h1>
+    <p>Whistle Podu Army</p>
+  </header>
+
+  <nav class="navbar">
+  <div class="nav-header">
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#players">Players</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#stats">Stats</a>
+    <a href="#fan">Fan Zone</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+</div>
+
+
+<!-- HOME -->
+<section id="home" class="section">
+  <h1>Welcome to CSK Fan Hub 💛</h1>
+  <img src="assets/csklogo.webp" alt="CSK Logo">
+  <h2><p>Your one-stop destination for CSK updates, players, matches, and fan interaction.</p></h2>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section yellow">
+  <h2>About CSK</h2>
+  <p>Chennai Super Kings (CSK) is one of the most successful and popular teams in the Indian Premier League. Founded in 2008, the team is known for its consistency, strong leadership, and excellent teamwork. Led by the legendary MS Dhoni, CSK has won multiple IPL titles and built a reputation for calm strategy and match-winning performances. Playing their home matches at the M. A. Chidambaram Stadium in Chennai, CSK enjoys massive support from fans proudly known as the Whistle Podu Army. The team represents passion, unity, and a never-give-up spirit that continues to inspire cricket lovers across the country.
+    </p>
+</section>
+
+<!-- PLAYERS -->
+<section id="players" class="section">
+  <h2>Players</h2>
+  <div class="cards">
+    <div class="card">MS Dhoni<img src="assets/players/Dhoniii.jpg" alt="MS Dhoni"> – Wicket Keeper / Captain</div>
+    <div class="card">Ruturaj Gaikwad<img src="assets/players/rutu.jpg" alt="Ruturaj"> – Batsman</div>
+    <div class="card">Ravindra Jadeja<img src="assets/players/jadeja.webp" alt="Jadeja"> – All-rounder</div>
+    <div class="card">Deepak Chahar<img src="assets/players/ddepak.webp" alt="chahar"> – Bowler</div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule" class="section yellow">
+  <h2>Match Schedule</h2>
+  <table>
+    <tr>
+      <th>Date</th>
+      <th>Opponent</th>
+      <th>Venue</th>
+    </tr>
+    <tr>
+      <td>25 Mar</td>
+      <td>MI</td>
+      <td>Chennai</td>
+    </tr>
+    <tr>
+      <td>30 Mar</td>
+      <td>RCB</td>
+      <td>Bangalore</td>
+    </tr>
+  </table>
+</section>
+
+<!-- STATS -->
+<section id="stats" class="section">
+  <h2>Team Statistics</h2>
+  <ul>
+    <li>IPL Titles: 5</li>
+    <li>Total Matches: 230+</li>
+    <li>Win Percentage: ~58%</li>
+    <li>Home Ground: MA Chidambaram Stadium</li>
+  </ul>
+</section>
+
+<!-- FAN ZONE -->
+<section id="fan" class="section yellow">
+  <h2>Fan Zone 🎉</h2>
+
+  <h3>Fan Poll</h3>
+  <p>Who is your favorite CSK player?</p>
+  <div class="poll-buttons">
+  <button onclick="vote('Dhoni')">MS Dhoni</button>
+  <button onclick="vote('Jadeja')">Ravindra Jadeja</button>
+  <button onclick="vote('Ruturaj')">Ruturaj Gaikwad</button>
+  </div>
+  <p id="voteResult"></p>
+
+  <h3>Fan Messages</h3>
+  <input type="text" id="username" placeholder="Your Name">
+  <input type="text" id="message" placeholder="Your Message">
+  <button onclick="addMessage()">Send</button>
+
+  <ul id="messages"></ul>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact & Feedback</h2>
+  <p>This is a fan website created to share updates and information about Chennai Super Kings.</p>
+  <p>Email: cskfansweb@gmail.com</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 CSK Fan Website | Developed for CSK Fans</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

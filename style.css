@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Hero section */
+.hero {
+  background: #f9d71c;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  background: #002f6c;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #f9d71c;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding-top: 160px; /* adjust based on hero + navbar height */
+}
+
+
+.section {
+  padding: 30px;
+  text-align: center;
+}
+
+.yellow {
+  background: #fff7d1;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #002f6c;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: #002f6c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f9d71c;
+  color: black;
+}
+
+footer {
+  background: #002f6c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+section {
+  scroll-margin-top: 170px; /* height of hero + navbar */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 27px;
+}
+
+#stats ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: auto;
+}
+
+#stats ul li {
+  background: #ffffff;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-left: 5px solid #002f6c;
+  font-size: 17px;
+  text-align: left;
+}
+
+/* Team Statistics font size change only */
+#stats h2 {
+  font-size: 27px;   /* Heading: Team Statistics */
+}
+
+#stats ul li {
+  font-size: 22px;   /* Text like IPL Titles, Total Matches, etc */
+}
+
+/* Fan Zone – increase box size only */
+#fan input {
+  width: 260px;        /* increase box width */
+  height: 35px;        /* increase box height */
+  font-size: 22px;     /* text inside box */
+  padding: 8px;
+}
+
+#fan button {
+  min-width: 140px;    /* button width */
+  height: 42px;        /* button height */
+  font-size: 22px;     /* button text */
+}
+
+
+/* =========================
+   MOBILE RESPONSIVE FIXES
+   ========================= */
+@media (max-width: 768px) {
+
+  /* General text */
+  section {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Team Statistics */
+  #stats h2 {
+    font-size: 22px;
+  }
+
+  #stats ul li {
+    font-size: 15px;
+  }
+
+  /* Fan Zone */
+  #fan h2 {
+    font-size: 22px;
+  }
+
+  #fan h3 {
+    font-size: 18px;
+  }
+
+  #fan p {
+    font-size: 15px;
+  }
+
+  /* Input boxes */
+  #fan input {
+    width: 90%;
+    height: 42px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  /* Buttons */
+  #fan button {
+    width: 90%;
+    height: 44px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  /* Poll buttons stacked */
+  #fan .poll-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+  #players img {
+    max-width: 160px;   /* smaller on mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  #players img {
+    width: 140px;
+    height: 180px;
+  }
+}
+
+
+}
+
+
+/* Player images – size control */
+#players img {
+  width: 100%;
+  max-width: 230px;   /* 🔽 reduce image size */
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+#players .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Make all player images equal size */
+#players img {
+  width: 180px;       /* SAME width for all */
+  height: 220px;      /* SAME height for all */
+  object-fit: cover;  /* Crop neatly without distortion */
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hamburger button (hidden on desktop) */
+.menu-toggle {
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Desktop navbar */
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+
+  .nav-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 8px 16px;
+  }
+
+
+  /* Show hamburger */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Hide menu initially */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #002f6c;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Show menu when active */
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 12px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .navbar {
+  position: relative;
+}
+
+
+  @media (max-width: 768px) {
+
+  #home {
+    text-align: center;
+  }
+
+}
+
+
+}
+
+/* Center HOME image properly */
+#home img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+  height: auto;
+}
+
+#home {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: absolute;
+    right: 16px;   /* 👈 moves to RIGHT */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+/* Error text styling */
+.error-text {
+  display: block;
+  color: red;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+
+
