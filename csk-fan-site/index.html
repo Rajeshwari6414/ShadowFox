@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSK Fan Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero-header">
+  <div class="header-container">
+
+    <!-- TEAM NAME CENTER -->
+    <h2 class="team-name">Chennai Super Kings</h2>
+
+    <!-- HAMBURGER (mobile) -->
+    <div class="hamburger" id="hamburger">☰</div>
+
+    <!-- MENU (right side desktop) -->
+    <nav id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#players">Players</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#stats">Stats</a>
+      <a href="#fan">Fan Zone</a>
+    </nav>
+
+  </div>
+</header>
+
+<section id="home" class="section">
+  <h2>💛 Welcome to CSK Fan Hub</h2>
+  <img src="assets/csklogo.webp">
+  <h2><p>Your one-stop destination for CSK updates, players and fan interaction.</p></h2>
+</section>
+
+<section id="about" class="section about-csk">
+  <h2>🦁 About CSK</h2>
+
+  <p>
+    Chennai Super Kings (CSK) is one of the most successful franchises in the
+    Indian Premier League (IPL). Founded in 2008, CSK is known for its
+    consistency, strong leadership, and passionate fan base.
+  </p>
+
+  <p>
+    Led for many years by MS Dhoni, the team has won multiple IPL titles and
+    earned a reputation for backing experienced players and playing fearless
+    cricket.
+  </p>
+
+  <p>
+    With the iconic lion symbol and the vibrant yellow jersey, CSK represents
+    resilience, unity, and the spirit of Chennai.
+  </p>
+</section>
+
+
+<section id="players" class="section yellow">
+  <h2>🏏 Players</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>MS Dhoni</h3>
+      <img src="assets/players/Dhoniii.jpg">
+      <p>Captain • Wicket Keeper</p>
+    </div>
+    <div class="card">
+      <h3>Ravindra Jadeja</h3>
+      <img src="assets/players/jadeja.webp">
+      <p>All-Rounder</p>
+    </div>
+    <div class="card">
+      <h3>Ruturaj Gaikwad</h3>
+      <img src="assets/players/rutu.jpg">
+      <p>Batsman</p>
+    </div>
+    <div class="card">
+      <h3>Deepak Chahar</h3>
+      <img src="assets/players/ddepak.webp">
+      <p>Bowler</p>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" class="section">
+  <h2>📅 Match Schedule</h2>
+  <table>
+    <tr><th>Date</th><th>Opponent</th><th>Venue</th></tr>
+    <tr><td>March 24</td><td>Mumbai Indians</td><td>Chennai</td></tr>
+    <tr><td>March 30</td><td>RCB</td><td>Bangalore</td></tr>
+  </table>
+</section>
+
+<section id="stats" class="section yellow">
+  <h2>📊 Team Stats</h2>
+  <ul class="stats-list">
+    <li>🏆 IPL Titles: 5</li>
+    <li>🔥 Highest Run Getter: Raina</li>
+    <li>🎯 Highest Wicket Taker: Bravo</li>
+  </ul>
+</section>
+
+<section id="fan" class="section">
+  <h2>🤝 Fan Zone</h2>
+
+  <!-- POLL QUESTION 1 -->
+  <p><strong>🗳️ Who is your favourite CSK player?</strong></p>
+  <button onclick="vote(this, 'MS Dhoni', 'result1')">MS Dhoni</button>
+  <button onclick="vote(this, 'Jadeja', 'result1')">Jadeja</button>
+  <button onclick="vote(this, 'Ruturaj', 'result1')">Ruturaj</button>
+
+  <p id="result1"></p>
+
+  <br><br>
+
+  <!-- POLL QUESTION 2 -->
+  <p><strong>🏆 Who is the most impactful CSK player?</strong></p>
+  <button onclick="vote(this, 'MS Dhoni', 'result2')">MS Dhoni</button>
+  <button onclick="vote(this, 'Jadeja', 'result2')">Jadeja</button>
+  <button onclick="vote(this, 'Ruturaj', 'result2')">Ruturaj</button>
+
+  <p id="result2"></p>
+</section>
+
+
+
+<footer>
+  <p>© 2025 CSK Fan Hub | Developed for CSK Fans</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
