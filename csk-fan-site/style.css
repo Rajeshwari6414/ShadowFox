@@ -350,4 +350,29 @@ nav a:active {
   padding-top: 80px;
 }
 
+/* ---------- ACTIVE NAV LINK (BLUE BG + VISIBLE TEXT) ---------- */
+
+/* Normal nav text (bold) */
+nav a {
+  font-weight: 600;
+  color: #002f6c;        /* CSK blue text */
+}
+
+/* When clicked / active */
+nav a:active,
+nav a:focus,
+nav a.active {
+  background: #002f6c !important;  /* CSK blue background */
+  color: #ffffff !important;       /* WHITE text (visible) */
+  border-radius: 6px;              /* smooth look */
+  outline: none;
+  box-shadow: none;
+}
+
+/* Optional hover (nice UX) */
+nav a:hover {
+  background: rgba(0, 47, 108, 0.15);
+  border-radius: 6px;
+}
+
 
