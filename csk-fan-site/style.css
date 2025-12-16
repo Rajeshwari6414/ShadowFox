@@ -280,3 +280,18 @@ button.voted {
   }
 }
 
+/* ---------- REMOVE UNDERLINE & MAKE NAV TEXT BOLD ---------- */
+
+nav a {
+  text-decoration: none !important;  /* remove underline */
+  font-weight: 600 !important;       /* bold text */
+}
+
+/* Ensure underline never appears on click / focus */
+nav a:hover,
+nav a:focus,
+nav a:active,
+nav a.active {
+  text-decoration: none !important;
+}
+
