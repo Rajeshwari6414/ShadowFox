@@ -12,6 +12,16 @@ body {
   z-index: 1000;
 }
 
+.hero h1,
+.hero-title {
+  font-size: 36px;   /* reduce from large value */
+  margin-top: 10px;
+}
+
+.hero {
+  margin-top: 70px;  /* pushes content below navbar */
+}
+
 
 /* HEADER LAYOUT */
 .header-container {
@@ -31,18 +41,21 @@ body {
 }
 
 /* MENU RIGHT */
+/* Top navigation bar */
 nav {
+  height: 60px;              /* reduce height */
   display: flex;
-  gap: 15px;
+  align-items: center;
+  justify-content: center;
 }
 
-/* MENU LINKS */
+/* Menu links */
 nav a {
-  color: #002f6c;
-  font-weight: bold;
-  text-decoration: none;
-  padding: 8px 10px;
+  font-size: 16px;           /* reduce text size */
+  padding: 8px 14px;         /* reduce spacing */
+  line-height: 1.2;
 }
+
 
 nav a:hover {
   background: #002f6c;
@@ -243,7 +256,7 @@ button.voted {
 
   /* Navigation menu */
   nav a {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   /* Player card text */
