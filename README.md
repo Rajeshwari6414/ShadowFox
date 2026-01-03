@@ -1,63 +1,46 @@
-# TASK 1
-# 🌟 Rajeshwari — Personal Portfolio Website
+# 🏏 Chennai Super Kings Fan Site
 
-Welcome to my personal portfolio website!  
-This site showcases my skills, projects, experience, and technical interests as a **B.Tech Artificial Intelligence & Data Science** student.
+A responsive fan-made website dedicated to Chennai Super Kings (CSK), designed to showcase team details, players, and interactive fan sections. This project highlights the passion of CSK fans and is built purely for learning and practice purposes.
 
----
+## 🌟 Features
 
-## 🚀 About Me
+- Home section with CSK overview
 
-I'm **Rajeshwari**, currently pursuing **2nd year B.Tech in Artificial Intelligence & Data Science at Sri Venkateswara College of Engineering**.  
-I love building things that make an impact — from web applications to AI & ML based projects.  
-My goal is to become a skilled developer capable of solving real-world problems through technology.
+- Players section with team details
 
----
+- Responsive design for desktop and mobile
 
-## 🛠️ Tech Stack Used
+- Hamburger menu for mobile view
 
-| Category | Tools |
-|--------|----------------------------|
-| Frontend | HTML, CSS, JavaScript |
-| UI Theme | Black & Gold Premium Theme ✨ |
-| Deployment | Vercel |
-| Version Control | Git & GitHub |
+- Clean UI using CSK theme colors
 
----
+- Smooth navigation and animations
 
-## 📌 Features in This Portfolio
+## 🛠️ Technologies Used
 
-✔ Responsive website  
-✔ Projects showcase section  
-✔ Animated particles background  
-✔ Dark/Light mode toggle  
-✔ Gold-themed premium UI  
-✔ Contact & Resume download section
+ - HTML5
 
----
+ - CSS3
 
-## 🧩 Projects Included
+ - JavaScript
 
-| Project | Description |
-|--------|------------|
-| 🍕 Food Delivery Website Clone | Swiggy/Zomato-like UI with menu & category layout |
-| 🛒 Mini E-Commerce Website | Cart system, sorting, search & product filtering |
-| 🌐 Personal Portfolio | The website for sample |
+## 🚀 Live Demo
 
----
+🔗 Live Website:
+https://shadow-fox-nou4.vercel.app/
 
-## 🔗 Live Portfolio Link
+📁 Project Structure
+- csk-fan-site/
+- index.html
+- style.css
+- script.js
+- assets/
 
-🔗 **Website:** 👉 https://shadow-fox-roan.vercel.app/
----
+## 🎯 Project Purpose
 
-## 📬 Contact
+This project was created to practice frontend web development skills, improve responsive design understanding, and apply real-world website layout concepts as part of an internship / academic task.
 
-Email: 2024ad0334@svce.ac.in  
-LinkedIn: https://www.linkedin.com/in/rajeshwari-b-c-a12774327/ 
-GitHub: https://github.com/Rajeshwari6414
+## ⭐ Support
 
----
-
-### ⭐ If you like this portfolio, don't forget to star the repository!
+⭐ If you like this project, please give it a star on GitHub!
 
