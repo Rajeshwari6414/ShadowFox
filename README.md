@@ -1,3 +1,5 @@
+# TASK 2 
+
 # 🏏 Chennai Super Kings Fan Site
 
 A responsive fan-made website dedicated to Chennai Super Kings (CSK), designed to showcase team details, players, and interactive fan sections. This project highlights the passion of CSK fans and is built purely for learning and practice purposes.
